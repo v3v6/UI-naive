@@ -1,0 +1,12 @@
+@charset "UTF-8";
+#pg {
+  outline-color: aquamarine;
+  outline-width: 3px;
+  outline-style: dashed; }
+  #pg::-webkit-progress-bar {
+    background-color: crimson; }
+  #pg::-webkit-progress-value {
+    background-color: darkorange; }
+  #pg::-webkit-progress-inner-element {
+    /* 进度条的内边框，注意跟outline区分 */
+    border: 2px solid black; }
