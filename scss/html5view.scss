@@ -1,0 +1,19 @@
+#pg{
+    outline-color: aquamarine;
+    outline-width: 3px;
+    outline-style: dashed;
+
+    &::-webkit-progress-bar{
+         //进度条未被填充部分的姿色
+        background-color: crimson;
+    }
+    &::-webkit-progress-value{
+        //被填的姿色
+        background-color: darkorange;
+    }
+    &::-webkit-progress-inner-element {
+        /* 进度条的内边框，注意跟outline区分 */
+        border: 2px solid black;
+        
+    }
+}

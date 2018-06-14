@@ -1,0 +1,25 @@
+.checkbox {
+  display: none; }
+
+.checkbox-label {
+  position: relative;
+  background-color: blanchedalmond;
+  outline-width: 3px;
+  outline-style: dashed;
+  outline-style: solid;
+  outline-color: beige;
+  height: 20px;
+  width: 40px; }
+
+.checkbox-label::before {
+  position: absolute;
+  left: 0;
+  content: '';
+  height: 20px;
+  width: 20px;
+  z-index: 20;
+  background-color: rebeccapurple;
+  transition: all 0.5s; }
+
+#checkbox1:checked + .checkbox-label::before {
+  left: 20px; }

@@ -1,0 +1,52 @@
+@charset "UTF-8";
+.button1 {
+  background-color: bisque;
+  border-color: bisque;
+  border-width: 3px;
+  border-radius: 200px;
+  border-style: solid;
+  height: 2em; }
+  .button1:hover {
+    background-color: bisque;
+    border-color: darkcyan;
+    border-radius: 200px; }
+  .button1:active {
+    background-color: darkcyan;
+    border-color: darkcyan;
+    border-radius: 200px; }
+
+.button2:disabled {
+  background-color: grey;
+  border: 0;
+  height: 2em;
+  border-radius: 200px;
+  color: ghostwhite; }
+
+.button3 {
+  background-color: #99dd33;
+  border: none;
+  color: white;
+  height: 2em;
+  animation-name: breath;
+  /* 动画名称 */
+  animation-duration: 4s;
+  /* 动画时长3秒 */
+  animation-timing-function: ease-in-out;
+  /* 动画速度曲线：以低速开始和结束 */
+  animation-iteration-count: infinite;
+  /* 播放次数：无限 */ }
+
+@keyframes breath {
+  from {
+    opacity: 0.1; }
+  /* 动画开始时的不透明度 */
+  50% {
+    opacity: 1; }
+  /* 动画50% 时的不透明度 */
+  to {
+    opacity: 0.1; }
+  /* 动画结束时的不透明度 */ }
+
+.button4 {
+  background-color: bisque;
+  outline: 5px; }

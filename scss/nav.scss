@@ -1,0 +1,29 @@
+.nav{
+    height: 2em;
+    background-color: darkgreen;
+    align-items: stretch;
+    color: whitesmoke;
+}
+.nav-item{
+    flex-shrink: 0;
+    flex-grow: 1;
+    flex-basis:auto;
+}
+.nav-text{
+    background-color: brown;
+   
+    height: 100%;
+    text-align: center;
+    line-height: 2em;
+}
+.nav-item{position: relative;}
+.nav-item>ul{
+    display: none;
+    position: absolute;
+    list-style: none;
+    width: 100%;
+    background-color: brown;
+}
+.nav-item:hover ul{display: block;margin: 0;padding: 0;text-align: center;}
+
+
