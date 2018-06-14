@@ -3,4 +3,4 @@
 现在好丑啊！！
 # 用了sass
 # 请用parcel构建
-[点这里看效果](www.baidu.com)
+[点这里看效果](dist/index.html)
